@@ -1,0 +1,13 @@
+# Ignore Files #
+################
+
+# Ignore Folders
+__pycache__
+/mailtest/
+/myvenv/
+/sample/
+
+# Ignore Files
+*.pyc
+db.sqlite3
+manage.py
