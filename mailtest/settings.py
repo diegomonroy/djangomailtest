@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'sample',
+    'djcelery',
 ]
 
 MIDDLEWARE = [
@@ -113,6 +115,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+MAILGUN_BASE_URL = "https://api.mailgun.net/v3/domain.com/messages"
+MAILGUN_API_KEY = "key-5891601XXXXXXXXXXXXXXXf"
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
